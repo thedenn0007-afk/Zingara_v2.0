@@ -579,6 +579,24 @@ p:last-child {
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+  animation: hero-zoom-out 2.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes hero-zoom-out {
+  from {
+    transform: scale(1.18);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__bg {
+    background-position: center 35%; /* Optimizing vertical center for mobile screens */
+  }
 }
 
 .hero__overlay {
@@ -1694,7 +1712,10 @@ p:last-child {
   position: absolute;
   inset: 0;
   background: linear-gradient(135deg, #181510 0%, #0f0d0a 100%);
+  background-size: cover;
+  background-position: center;
   z-index: 0;
+  animation: hero-zoom-out 2.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 /* Map placeholder */

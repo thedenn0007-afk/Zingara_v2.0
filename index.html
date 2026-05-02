@@ -47,7 +47,7 @@
   <!-- ============================================================ HERO (B2: no CTA buttons — scroll arrow only) -->
   <section class="hero">
     <!-- placeholder bg -->
-    <div class="hero-ph"></div>
+    <div class="hero__bg" style="background-image: url('images/i1.jpg');"></div>
     <div class="hero__overlay"></div>
 
     <div class="hero__content" style="display:flex; flex-direction:column; align-items:center;">
@@ -67,15 +67,8 @@
     <div class="container">
       <div class="story-split reveal">
         <!-- LEFT: image placeholder -->
-        <div class="img-placeholder" style="min-height:480px; border-radius:4px;">
-          <div class="img-placeholder__icon">
-            <svg viewBox="0 0 24 24">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <circle cx="8.5" cy="8.5" r="1.5" />
-              <polyline points="21 15 16 10 5 21" />
-            </svg>
-          </div>
-          <span class="img-placeholder__label">Food Photography</span>
+        <div class="img-placeholder" style="min-height:480px; border-radius:4px; overflow:hidden;">
+          <img src="images/i2.jpg" alt="Our Story - Food Photography" style="width:100%; height:100%; object-fit:cover;" />
         </div>
         <!-- RIGHT: text -->
         <div class="story-text">
@@ -146,13 +139,8 @@
       <div class="grid-2 reveal" style="gap:var(--sp-6);">
         <!-- Card 1 -->
         <div class="card">
-          <div class="img-placeholder" style="height:220px; min-height:unset;">
-            <div class="img-placeholder__icon"><svg viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg></div>
-            <span class="img-placeholder__label">Zingara White Chicken Biryani</span>
+          <div class="img-placeholder" style="height:220px; min-height:unset; overflow:hidden;">
+            <img src="images/i3.jpg" alt="Zingara White Chicken Biryani" style="width:100%; height:100%; object-fit:cover;" />
           </div>
           <div class="card__body">
             <span class="card__label">Signature</span>
@@ -165,13 +153,8 @@
         </div>
         <!-- Card 2 -->
         <div class="card">
-          <div class="img-placeholder" style="height:220px; min-height:unset;">
-            <div class="img-placeholder__icon"><svg viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg></div>
-            <span class="img-placeholder__label">Chicken Seekh Platter</span>
+          <div class="img-placeholder" style="height:220px; min-height:unset; overflow:hidden;">
+            <img src="images/i4.jpg" alt="Chicken Seekh Platter" style="width:100%; height:100%; object-fit:cover;" />
           </div>
           <div class="card__body">
             <span class="card__label">Starters</span>
@@ -184,13 +167,8 @@
         </div>
         <!-- Card 3 -->
         <div class="card">
-          <div class="img-placeholder" style="height:220px; min-height:unset;">
-            <div class="img-placeholder__icon"><svg viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg></div>
-            <span class="img-placeholder__label">Butter Chicken</span>
+          <div class="img-placeholder" style="height:220px; min-height:unset; overflow:hidden;">
+            <img src="images/i5.jpg" alt="Butter Chicken" style="width:100%; height:100%; object-fit:cover;" />
           </div>
           <div class="card__body">
             <span class="card__label">Mains</span>
@@ -203,13 +181,8 @@
         </div>
         <!-- Card 4 -->
         <div class="card">
-          <div class="img-placeholder" style="height:220px; min-height:unset;">
-            <div class="img-placeholder__icon"><svg viewBox="0 0 24 24">
-                <rect x="3" y="3" width="18" height="18" rx="2" />
-                <circle cx="8.5" cy="8.5" r="1.5" />
-                <polyline points="21 15 16 10 5 21" />
-              </svg></div>
-            <span class="img-placeholder__label">Laal Maas (chef's Special)</span>
+          <div class="img-placeholder" style="height:220px; min-height:unset; overflow:hidden;">
+            <img src="images/i6.jpg" alt="Laal Maas (chef's Special)" style="width:100%; height:100%; object-fit:cover;" />
           </div>
           <div class="card__body">
             <span class="card__label">Mains</span>
@@ -258,14 +231,8 @@
       </div>
 
       <!-- Map placeholder (below buttons) -->
-      <div class="map-ph reveal" style="max-width:680px; margin-inline:auto; min-height:240px;">
-        <div class="map-ph__pin">
-          <svg viewBox="0 0 24 24">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-            <circle cx="12" cy="10" r="3" />
-          </svg>
-          <span class="map-ph__label">Zingara · Horamavu, Bangalore</span>
-        </div>
+      <div class="map-ph reveal" style="max-width:680px; margin-inline:auto; min-height:240px; overflow:hidden;">
+        <img src="images/i7.jpg" alt="Location Map - Horamavu" style="width:100%; height:100%; object-fit:cover;" />
       </div>
     </div>
   </section>

@@ -19,7 +19,10 @@
       position: absolute;
       inset: 0;
       background: linear-gradient(160deg, #1a1710 0%, #0e0c09 50%, #1c1710 100%);
+      background-size: cover;
+      background-position: center;
       z-index: 0;
+      animation: hero-zoom-out 2.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
     .about-hero__overlay {
       position: absolute;
@@ -198,7 +201,7 @@
 
   <!-- F1: LEFT-ALIGNED HERO with two-column layout -->
   <section class="about-hero">
-    <div class="about-hero__bg"></div>
+    <div class="about-hero__bg" style="background-image: url('images/a1.jpg'); background-size: cover; background-position: center;"></div>
     <div class="about-hero__overlay"></div>
     <div class="about-hero__content">
       <div class="about-hero__left">
@@ -216,9 +219,8 @@
     <div class="container">
       <div class="about-split reveal">
         <div class="about-split__img">
-          <div class="img-placeholder" style="min-height:420px;">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="rgba(201,147,58,0.4)" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-            <span style="font-size:0.7rem; letter-spacing:0.12em; color:rgba(201,147,58,0.4); text-transform:uppercase;">Kitchen · Mysore</span>
+          <div class="img-placeholder" style="min-height:420px; overflow:hidden;">
+            <img src="images/a2.jpg" alt="Kitchen · Mysore" style="width:100%; height:100%; object-fit:cover;" />
           </div>
         </div>
         <div class="about-split__text">
@@ -253,7 +255,7 @@
 
   <!-- F3: CINEMATIC QUOTE SECTION with section-bg-ph -->
   <section class="cinematic-quote">
-    <div class="cinematic-quote__bg"></div>
+    <div class="cinematic-quote__bg" style="background-image: url('images/a3.jpg'); background-size: cover; background-position: center;"></div>
     <div class="cinematic-quote__overlay"></div>
     <div class="cinematic-quote__inner reveal">
       <p class="cinematic-quote__text">
@@ -275,9 +277,8 @@
           <a href="menu.html" class="btn btn--primary" style="margin-top:var(--sp-5); display:inline-flex;">See Our Menu</a>
         </div>
         <div class="about-split__img">
-          <div class="img-placeholder" style="min-height:420px;">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="rgba(201,147,58,0.4)" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
-            <span style="font-size:0.7rem; letter-spacing:0.12em; color:rgba(201,147,58,0.4); text-transform:uppercase;">The Handi · Bangalore</span>
+          <div class="img-placeholder" style="min-height:420px; overflow:hidden;">
+            <img src="images/a4.jpg" alt="The Handi · Bangalore" style="width:100%; height:100%; object-fit:cover;" />
           </div>
         </div>
       </div>
