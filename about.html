@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Our Story — Zingara | Before Zingara, There Was a Kitchen in Mysore</title>
-  <meta name="description" content="The story of Zingara — a kitchen in Mysore, a 19-spice blend, and the art of cooking without shortcuts." />
+  <meta name="description"
+    content="The story of Zingara — a kitchen in Mysore, a 19-spice blend, and the art of cooking without shortcuts." />
   <link rel="stylesheet" href="css/styles.css" />
   <style>
     /* ── F1: Left-aligned hero ── */
@@ -15,6 +17,7 @@
       align-items: flex-end;
       overflow: hidden;
     }
+
     .about-hero__bg {
       position: absolute;
       inset: 0;
@@ -24,16 +27,18 @@
       z-index: 0;
       animation: hero-zoom-out 2.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
+
     .about-hero__overlay {
       position: absolute;
       inset: 0;
       background: linear-gradient(to bottom,
-        rgba(28,26,24,0.3) 0%,
-        rgba(28,26,24,0.5) 50%,
-        rgba(28,26,24,0.95) 90%,
-        rgba(28,26,24,1) 100%);
+          rgba(28, 26, 24, 0.3) 0%,
+          rgba(28, 26, 24, 0.5) 50%,
+          rgba(28, 26, 24, 0.95) 90%,
+          rgba(28, 26, 24, 1) 100%);
       z-index: 1;
     }
+
     .about-hero__content {
       position: relative;
       z-index: 2;
@@ -46,6 +51,7 @@
       max-width: 1200px;
       margin: 0 auto;
     }
+
     .about-hero__left h1 {
       font-family: var(--font-serif);
       font-size: clamp(2.4rem, 6vw, 4.8rem);
@@ -54,17 +60,20 @@
       line-height: 1.12;
       margin-bottom: var(--sp-6);
     }
+
     .about-hero__left .hero__eyebrow {
       margin-bottom: var(--sp-4);
     }
+
     .about-hero__right {
       padding-bottom: var(--sp-2);
     }
+
     .about-hero__right p {
       font-size: var(--fs-sm);
       color: var(--color-cream-muted);
       line-height: 1.8;
-      border-left: 1px solid rgba(201,147,58,0.3);
+      border-left: 1px solid rgba(201, 147, 58, 0.3);
       padding-left: var(--sp-4);
     }
 
@@ -77,6 +86,7 @@
       max-width: 600px;
       margin: var(--sp-10) auto 0;
     }
+
     .philosophy-item-v2 {
       font-family: var(--font-serif);
       font-size: var(--fs-lg);
@@ -87,6 +97,7 @@
       letter-spacing: 0.01em;
       line-height: 1.4;
     }
+
     .philosophy-sep {
       width: 4px;
       height: 4px;
@@ -104,18 +115,21 @@
       align-items: center;
       justify-content: center;
     }
+
     .cinematic-quote__bg {
       position: absolute;
       inset: 0;
       background: linear-gradient(135deg, #181510 0%, #0f0d0a 100%);
       z-index: 0;
     }
+
     .cinematic-quote__overlay {
       position: absolute;
       inset: 0;
-      background: rgba(28,26,24,0.65);
+      background: rgba(28, 26, 24, 0.65);
       z-index: 1;
     }
+
     .cinematic-quote__inner {
       position: relative;
       z-index: 2;
@@ -123,6 +137,7 @@
       padding: var(--sp-16) var(--sp-8);
       max-width: 760px;
     }
+
     .cinematic-quote__text {
       font-family: var(--font-serif);
       font-size: clamp(1.9rem, 5vw, 3.6rem);
@@ -139,18 +154,22 @@
       gap: var(--sp-12);
       align-items: center;
     }
+
     .about-split__img {
       border-radius: var(--radius-md);
       overflow: hidden;
       min-height: 420px;
     }
+
     .about-split__text .label {
       display: block;
       margin-bottom: var(--sp-3);
     }
+
     .about-split__text h2 {
       margin-bottom: var(--sp-5);
     }
+
     .about-split__text p {
       color: var(--color-cream-muted);
       line-height: 1.8;
@@ -162,12 +181,22 @@
         grid-template-columns: 1fr;
         padding: 0 var(--sp-5) var(--sp-12);
       }
-      .about-hero__right { display: none; }
-      .about-split { grid-template-columns: 1fr; }
-      .about-split__img { min-height: 280px; }
+
+      .about-hero__right {
+        display: none;
+      }
+
+      .about-split {
+        grid-template-columns: 1fr;
+      }
+
+      .about-split__img {
+        min-height: 280px;
+      }
     }
   </style>
 </head>
+
 <body>
 
   <!-- NAV -->
@@ -184,7 +213,10 @@
       </ul>
       <div class="nav__actions">
         <a href="https://wa.me/919187103005" target="_blank" rel="noopener" class="nav__wa-icon" aria-label="WhatsApp">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
         </a>
         <a href="order.html" class="btn btn--primary">Order Now</a>
       </div>
@@ -201,7 +233,8 @@
 
   <!-- F1: LEFT-ALIGNED HERO with two-column layout -->
   <section class="about-hero">
-    <div class="about-hero__bg" style="background-image: url('images/a1.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="about-hero__bg"
+      style="background-image: url('images/a1.jpg'); background-size: cover; background-position: center;"></div>
     <div class="about-hero__overlay"></div>
     <div class="about-hero__content">
       <div class="about-hero__left">
@@ -209,7 +242,8 @@
         <h1>Before Zingara,<br>there was a kitchen<br>in Mysore.</h1>
       </div>
       <div class="about-hero__right">
-        <p>Where a family ground spices every morning, cooked biryani without shortcuts, and understood that real flavour doesn't need colour to announce itself.</p>
+        <p>Where a family ground spices every morning, cooked biryani without shortcuts, and understood that real
+          flavour doesn't need colour to announce itself.</p>
       </div>
     </div>
   </section>
@@ -226,8 +260,11 @@
         <div class="about-split__text">
           <span class="label">The Beginning</span>
           <h2>We didn't invent white biryani. We devoted ourselves to it.</h2>
-          <p>Zingara began not as a restaurant, but as a conviction. A belief that Mysore's culinary tradition — particularly its white biryani — deserved to be treated with the same reverence as any fine art form.</p>
-          <p>Our founders spent years refining what they called "the quiet approach to biryani." Less is more. No artificial colour, no MSG, no factory spice mixes. Instead: a 19-spice blend sourced from Mysore's oldest spice markets, ground by hand each morning, slow-cooked in a sealed handi.</p>
+          <p>Zingara began not as a restaurant, but as a conviction. A belief that Mysore's culinary tradition —
+            particularly its white biryani — deserved to be treated with the same reverence as any fine art form.</p>
+          <p>Our founders spent years refining what they called "the quiet approach to biryani." Less is more. No
+            artificial colour, no MSG, no factory spice mixes. Instead: a 19-spice blend sourced from Mysore's oldest
+            spice markets, ground by hand each morning, slow-cooked in a sealed handi.</p>
         </div>
       </div>
     </div>
@@ -255,7 +292,8 @@
 
   <!-- F3: CINEMATIC QUOTE SECTION with section-bg-ph -->
   <section class="cinematic-quote">
-    <div class="cinematic-quote__bg" style="background-image: url('images/a3.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="cinematic-quote__bg"
+      style="background-image: url('images/a3.jpg'); background-size: cover; background-position: center;"></div>
     <div class="cinematic-quote__overlay"></div>
     <div class="cinematic-quote__inner reveal">
       <p class="cinematic-quote__text">
@@ -272,9 +310,13 @@
         <div class="about-split__text">
           <span class="label">The Process</span>
           <h2>From one kitchen to your table.</h2>
-          <p>We cook in a single kitchen. Not a central production facility, not a cloud kitchen chain. One kitchen, one team, one standard. Every morning begins at 5 AM with spice grinding. By 7 AM, the first handi goes on the fire.</p>
-          <p>We sell out every day. That is not a marketing tactic. It is a consequence of cooking in small, honest batches. When it's gone, it's gone.</p>
-          <a href="menu.html" class="btn btn--primary" style="margin-top:var(--sp-5); display:inline-flex;">See Our Menu</a>
+          <p>We cook in a single kitchen. Not a central production facility, not a cloud kitchen chain. One kitchen, one
+            team, one standard. Every morning begins at 5 AM with spice grinding. By 7 AM, the first handi goes on the
+            fire.</p>
+          <p>We sell out every day. That is not a marketing tactic. It is a consequence of cooking in small, honest
+            batches. When it's gone, it's gone.</p>
+          <a href="menu.html" class="btn btn--primary" style="margin-top:var(--sp-5); display:inline-flex;">See Our
+            Menu</a>
         </div>
         <div class="about-split__img">
           <div class="img-placeholder" style="min-height:420px; overflow:hidden;">
@@ -297,34 +339,47 @@
     </div>
   </section>
 
-  <!-- F4: SIMPLE CENTERED FOOTER -->
   <footer class="footer" style="padding-block:var(--sp-10) var(--sp-6);">
     <div class="container">
-      <div style="text-align:center; margin-bottom:var(--sp-6);">
-        <div style="display: flex; align-items: center; justify-content: center; gap: 0;">
-          <img src="images/logo.png" alt="" style="height: 5.5rem; width: auto;" />
-          <img src="images/zingara.png" alt="Zingara" class="footer__zingara-text-img" />
+      <div
+        style="display:flex; justify-content:space-between; align-items:center; margin-bottom:var(--sp-6); flex-wrap:wrap; gap:var(--sp-4);">
+        <div style="flex: 1;">
+          <div style="display: flex; align-items: center; gap: 0;">
+            <img src="images/logo.png" alt="" style="height: 5.5rem; width: auto;" />
+            <img src="images/zingara.png" alt="Zingara" class="footer__zingara-text-img" />
+          </div>
         </div>
-        <p class="footer__tagline" style="margin-bottom:var(--sp-5);">The Art of White Biryani.</p>
-        <div style="display:flex; gap:var(--sp-4); justify-content:center; align-items:center;">
-          <a href="https://instagram.com/zingara" target="_blank" rel="noopener" aria-label="Instagram"
-             style="color:var(--color-cream-muted); transition:color 0.2s;" onmouseover="this.style.color='var(--color-gold)'" onmouseout="this.style.color='var(--color-cream-muted)'">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
-          <a href="https://wa.me/919187103005" target="_blank" rel="noopener" aria-label="WhatsApp"
-             style="color:var(--color-cream-muted); transition:color 0.2s;" onmouseover="this.style.color='var(--color-gold)'" onmouseout="this.style.color='var(--color-cream-muted)'">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </a>
+        
+        <div style="flex: 1; text-align: center;">
+          <p style="margin-bottom:0; font-family:var(--font-serif); font-style:italic; font-size:var(--fs-lg); color:var(--color-cream-muted);">Art of White Biriyani</p>
+        </div>
+
+        <div style="flex: 1; display: flex; justify-content: flex-end;">
+          <div class="footer__social">
+            <a href="https://instagram.com/zingara" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+            <a href="https://wa.me/919187103005" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
-      <div style="text-align:center; padding-top:var(--sp-5); border-top:1px solid rgba(201,147,58,0.1);">
-        <span style="font-size:var(--fs-xs); color:var(--color-cream-muted); letter-spacing:0.08em;">
-          © 2024 ZINGARA · HORAMAVU, BANGALORE · ALL RIGHTS RESERVED
-        </span>
+      <div
+        style="border-top:1px solid rgba(245,237,216,0.08); padding-top:var(--sp-4); font-size:var(--fs-xs); color:rgba(200,189,170,0.45);">
+        © 2024 Zingara, Bangalore. All rights reserved.
       </div>
     </div>
   </footer>
 
   <script src="js/main.js"></script>
 </body>
+
 </html>
