@@ -803,6 +803,11 @@ p:last-child {
   flex-shrink: 0;
 }
 
+.menu-subsection {
+  margin-top: var(--sp-12);
+  margin-bottom: var(--sp-6);
+}
+
 /* ---------- MENU CATEGORY HEADER ---------- */
 .menu-category {
   margin-bottom: var(--sp-12);
@@ -837,9 +842,18 @@ p:last-child {
 .tabs {
   display: flex;
   gap: var(--sp-2);
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   margin-bottom: var(--sp-12);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding-bottom: 4px;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
 }
 
 .tab-btn {
