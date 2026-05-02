@@ -34,18 +34,7 @@ All placeholder images in the code follow a strict naming convention based on th
 | Filename | Category | Description |
 | :--- | :--- | :--- |
 | `g1.jpg` | Hero | Background for the Gallery page header. |
-| `g2.jpg` | Food | Tall image (Portrait) — Signature dish. |
-| `g3.jpg` | Ambience | Square image — Interior/Seating. |
-| `g4.jpg` | Food | Square image — Close up of food. |
-| `g5.jpg` | Ambience | Wide image (Landscape) — Restaurant view. |
-| `g6.jpg` | Process | Square image — Spice grinding or cooking. |
-| `g7.jpg` | Food | Square image — Side dish or appetizer. |
-| `g8.jpg` | Ambience | Square image — Decor details. |
-| `g9.jpg` | Process | Square image — Sealed Dum Handi. |
-| `g10.jpg` | Food | Tall image (Portrait) — Drink or dessert. |
-| `g11.jpg` | Ambience | Square image — Night time view or lighting. |
-| `g12.jpg` | Process | Square image — Plating the biryani. |
-| `g13.jpg` | Food | Square image — Another signature dish. |
+| (Grid) | All | The gallery grid now uses a random mix of images from the **"m" series** (Menu) to showcase food variety. |
 
 ## 4. Menu (`menu.html`) — "m" series
 | Filename | Section | Description |
@@ -69,13 +58,6 @@ All placeholder images in the code follow a strict naming convention based on th
 | `m17.jpg` | Biryani Combos | Featured image for the Combos section. |
 | `m18.jpg` | Indian Mains | Veg Gravies sub-category. |
 | `m19.jpg` | Indian Mains | Non-Veg Gravies sub-category. |
-| `m20.jpg` | Beverages | Milkshakes & Refreshers sub-category. |
-| `m21.jpg` | Beverages | Lassi & Others sub-category. |
-| `m22.jpg` | Savories | Sandwiches sub-category. |
-| `m23.jpg` | Savories | Fried (Fries/etc) sub-category. |
-| `m24.jpg` | Desserts | Classics sub-category. |
-| `m25.jpg` | Desserts | Sundaes sub-category. |
-| `m26.jpg` | Desserts | Scoops sub-category. |
 
 ## 5. Order & Reserve (`order.html`) — "o" series
 | Filename | Section | Description |
