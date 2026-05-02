@@ -402,12 +402,12 @@ p:last-child {
 .nav__logo {
   display: flex;
   align-items: center;
-  gap: var(--sp-3);
+  gap: 0;
 }
 
 .nav__logo-icon {
-  width: 28px;
-  height: 28px;
+  width: auto;
+  height: 5.5rem;
   object-fit: contain;
 }
 
@@ -419,6 +419,27 @@ p:last-child {
   text-transform: uppercase;
   color: var(--color-red) !important;
   line-height: 1;
+}
+
+.nav__zingara-text-img {
+  height: 8rem;
+  width: auto;
+  object-fit: contain;
+  margin-left: -2.5rem;
+}
+
+.hero__zingara-text-img {
+  height: 1em;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer__zingara-text-img {
+  height: 8rem;
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 0;
+  margin-left: -2.5rem;
 }
 
 .nav__logo-text span {
@@ -1090,6 +1111,9 @@ p:last-child {
   font-style: italic;
   color: var(--color-cream-muted);
   margin-bottom: var(--sp-6);
+  margin-top: -1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 .footer__social {
