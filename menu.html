@@ -78,7 +78,8 @@
 
   <!-- PAGE HERO (placeholder bg) -->
   <section class="page-hero">
-    <div class="section-bg-ph" style="background-image: url('images/m1.jpg'); background-size: cover; background-position: center;"></div>
+    <div class="section-bg-ph"
+      style="background-image: url('images/m1.jpg'); background-size: cover; background-position: center;"></div>
     <div class="page-hero__overlay"></div>
     <div class="container page-hero__content" style="text-align:center; width:100%;">
       <h1 class="page-hero__title" style="font-size:clamp(2.5rem,7vw,4.5rem);">Our Menu</h1>
@@ -114,7 +115,8 @@
 
       <!-- TAB: SOUPS (Split) -->
       <div class="tab-panel active" id="tab-soups">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Soups</span></div>
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Soups</span></div>
         <div class="menu-split reveal">
           <div class="menu-split__items">
             <div class="menu-item">
@@ -131,9 +133,8 @@
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:280px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Soups</span>
+            <div class="img-placeholder" style="height:100%; min-height:280px; border-radius:0; overflow:hidden;">
+              <img src="images/m3.jpg" alt="Soups" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -141,80 +142,121 @@
 
       <!-- TAB: STARTERS (Split) -->
       <div class="tab-panel" id="tab-starters">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Starters</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Starters</span></div>
+
+        <!-- South Indian -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
             <div class="menu-subsection"><span class="menu-category__title">South Indian</span></div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Curry Patta Chicken</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Curry Patta Chicken</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Zingara Kebab</span></div><span class="menu-item__price">₹199</span>
+              <div class="menu-item__info"><span class="menu-item__name">Zingara Kebab</span></div><span
+                class="menu-item__price">₹199</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Chintamani</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Chintamani</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Pallipalayam</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Pallipalayam</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mutton Fry</span></div><span class="menu-item__price">₹349</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Tandoor</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kalmi Kebab</span></div><span class="menu-item__price">₹249</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Malai Chicken Tikka</span></div><span class="menu-item__price">₹239</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Tandoori Chicken</span></div><span class="menu-item__price">₹259</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Tikka</span></div><span class="menu-item__price">₹249</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Lal Mirch Paneer Tikka</span></div><span class="menu-item__price">₹229</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Paneer Tikka</span></div><span class="menu-item__price">₹229</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Stuffed Tandoori Mushroom</span></div><span class="menu-item__price">₹229</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Hara Bhara Kebab</span></div><span class="menu-item__price">₹199</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Beetroot Kebab</span></div><span class="menu-item__price">₹199</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kandhari Chicken</span></div><span class="menu-item__price">₹239</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Seekh Kebab &amp; Rolls</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Seekh Roll</span></div><span class="menu-item__price">₹149</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mutton Seekh Roll</span></div><span class="menu-item__price">₹179</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Peri Peri Chicken Seekh Kebab</span></div><span class="menu-item__price">₹169</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Spicy Mutton Seekh</span></div><span class="menu-item__price">₹219</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Seekh Platter</span></div><span class="menu-item__price">₹349</span>
+              <div class="menu-item__info"><span class="menu-item__name">Mutton Fry</span></div><span
+                class="menu-item__price">₹349</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:450px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Appetizers</span>
+            <div class="img-placeholder" style="height:100%; min-height:300px; border-radius:0; overflow:hidden;">
+              <img src="images/m4.jpg" alt="South Indian Starters" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Tandoor -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Tandoor</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Kalmi Kebab</span></div><span
+                class="menu-item__price">₹249</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Malai Chicken Tikka</span></div><span
+                class="menu-item__price">₹239</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Tandoori Chicken</span></div><span
+                class="menu-item__price">₹259</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Tikka</span></div><span
+                class="menu-item__price">₹249</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Lal Mirch Paneer Tikka</span></div><span
+                class="menu-item__price">₹229</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Paneer Tikka</span></div><span
+                class="menu-item__price">₹229</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Stuffed Tandoori Mushroom</span></div><span
+                class="menu-item__price">₹229</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Hara Bhara Kebab</span></div><span
+                class="menu-item__price">₹199</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Beetroot Kebab</span></div><span
+                class="menu-item__price">₹199</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Kandhari Chicken</span></div><span
+                class="menu-item__price">₹239</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:400px; border-radius:0; overflow:hidden;">
+              <img src="images/m5.jpg" alt="Tandoor Starters" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Seekh Kebab & Rolls -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Seekh Kebab &amp; Rolls</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Seekh Roll</span></div><span
+                class="menu-item__price">₹149</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Mutton Seekh Roll</span></div><span
+                class="menu-item__price">₹179</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Peri Peri Chicken Seekh Kebab</span></div><span
+                class="menu-item__price">₹169</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Spicy Mutton Seekh</span></div><span
+                class="menu-item__price">₹219</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Seekh Platter</span></div><span
+                class="menu-item__price">₹349</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:300px; border-radius:0; overflow:hidden;">
+              <img src="images/m6.jpg" alt="Seekh Kebabs & Rolls" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -222,71 +264,111 @@
 
       <!-- TAB: CHINESE (Split) -->
       <div class="tab-panel" id="tab-chinese">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Chinese</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Chinese</span></div>
+
+        <!-- Non-Veg Starters -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
             <div class="menu-subsection"><span class="menu-category__title">Non-Veg Starters</span></div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Lemon Chicken</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Lemon Chicken</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Manchurian Dry</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Manchurian Dry</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Lollipop</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Lollipop</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chilli Chicken</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Chilli Chicken</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Pepper Fry</span></div><span class="menu-item__price">₹219</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Veg Starters</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Gobi 65</span></div><span class="menu-item__price">₹179</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Gobi Manchurian</span></div><span class="menu-item__price">₹199</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chilli Paneer</span></div><span class="menu-item__price">₹219</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Paneer Pepper Fry</span></div><span class="menu-item__price">₹219</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mushroom Pepper Fry</span></div><span class="menu-item__price">₹199</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Baby Corn Pepper Fry</span></div><span class="menu-item__price">₹199</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Mains</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Veg Fried Rice</span></div><span class="menu-item__price">₹179</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Egg Fried Rice</span></div><span class="menu-item__price">₹199</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Fried Rice</span></div><span class="menu-item__price">₹229</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Veg Hakka Noodles</span></div><span class="menu-item__price">₹179</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Egg Hakka Noodles</span></div><span class="menu-item__price">₹199</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Hakka Noodles</span></div><span class="menu-item__price">₹229</span>
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Pepper Fry</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:450px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Chinese Specials</span>
+            <div class="img-placeholder" style="height:100%; min-height:300px; border-radius:0; overflow:hidden;">
+              <img src="images/m7.jpg" alt="Chinese Non-Veg Starters"
+                style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Veg Starters -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Veg Starters</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Gobi 65</span></div><span
+                class="menu-item__price">₹179</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Gobi Manchurian</span></div><span
+                class="menu-item__price">₹199</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chilli Paneer</span></div><span
+                class="menu-item__price">₹219</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Paneer Pepper Fry</span></div><span
+                class="menu-item__price">₹219</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Mushroom Pepper Fry</span></div><span
+                class="menu-item__price">₹199</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Baby Corn Pepper Fry</span></div><span
+                class="menu-item__price">₹199</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:320px; border-radius:0; overflow:hidden;">
+              <img src="images/m8.jpg" alt="Chinese Veg Starters" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Mains -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Mains</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Veg Fried Rice</span></div><span
+                class="menu-item__price">₹179</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Egg Fried Rice</span></div><span
+                class="menu-item__price">₹199</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Fried Rice</span></div><span
+                class="menu-item__price">₹229</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Veg Hakka Noodles</span></div><span
+                class="menu-item__price">₹179</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Egg Hakka Noodles</span></div><span
+                class="menu-item__price">₹199</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Hakka Noodles</span></div><span
+                class="menu-item__price">₹229</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:320px; border-radius:0; overflow:hidden;">
+              <img src="images/m9.jpg" alt="Chinese Rice & Noodles"
+                style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -294,35 +376,42 @@
 
       <!-- TAB: EGGS (Split) -->
       <div class="tab-panel" id="tab-eggs">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Eggs</span></div>
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Eggs</span></div>
         <div class="menu-split reveal">
           <div class="menu-split__items">
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Egg Chilli</span></div><span class="menu-item__price">₹99</span>
+              <div class="menu-item__info"><span class="menu-item__name">Egg Chilli</span></div><span
+                class="menu-item__price">₹99</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Egg Pepper Fry</span></div><span class="menu-item__price">₹99</span>
+              <div class="menu-item__info"><span class="menu-item__name">Egg Pepper Fry</span></div><span
+                class="menu-item__price">₹99</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Egg Curry</span></div><span class="menu-item__price">₹149</span>
+              <div class="menu-item__info"><span class="menu-item__name">Egg Curry</span></div><span
+                class="menu-item__price">₹149</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Egg Masala</span></div><span class="menu-item__price">₹149</span>
+              <div class="menu-item__info"><span class="menu-item__name">Egg Masala</span></div><span
+                class="menu-item__price">₹149</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Plain Omelette</span></div><span class="menu-item__price">₹59</span>
+              <div class="menu-item__info"><span class="menu-item__name">Plain Omelette</span></div><span
+                class="menu-item__price">₹59</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Masala Omelette</span></div><span class="menu-item__price">₹79</span>
+              <div class="menu-item__info"><span class="menu-item__name">Masala Omelette</span></div><span
+                class="menu-item__price">₹79</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">2 Boiled Eggs</span></div><span class="menu-item__price">₹39</span>
+              <div class="menu-item__info"><span class="menu-item__name">2 Boiled Eggs</span></div><span
+                class="menu-item__price">₹39</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:300px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Egg Specials</span>
+            <div class="img-placeholder" style="height:100%; min-height:300px; border-radius:0; overflow:hidden;">
+              <img src="images/m10.jpg" alt="Egg Specials" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -330,51 +419,73 @@
 
       <!-- TAB: DOSA & PAROTTA (Split) -->
       <div class="tab-panel" id="tab-dosa">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Dosa &amp; Parotta</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Dosa
+            &amp; Parotta</span></div>
+
+        <!-- Dosa -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
             <div class="menu-subsection"><span class="menu-category__title">Dosa</span></div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Plain Dosa</span></div><span class="menu-item__price">₹69</span>
+              <div class="menu-item__info"><span class="menu-item__name">Plain Dosa</span></div><span
+                class="menu-item__price">₹69</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Egg Dosa</span></div><span class="menu-item__price">₹99</span>
+              <div class="menu-item__info"><span class="menu-item__name">Egg Dosa</span></div><span
+                class="menu-item__price">₹99</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Keema Dosa</span></div><span class="menu-item__price">₹129</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Parotta</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Bun Parotta</span></div><span class="menu-item__price">₹39</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Coin Parotta</span></div><span class="menu-item__price">₹39</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Plain / Nool Parotta</span></div><span class="menu-item__price">₹39</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Keema Parotta</span></div><span class="menu-item__price">₹149</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Zingara Special Egg Parotta</span></div><span class="menu-item__price">₹109</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kothu Parotta (Veg)</span></div><span class="menu-item__price">₹109</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kothu Parotta (Egg)</span></div><span class="menu-item__price">₹129</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kothu Parotta (Chicken)</span></div><span class="menu-item__price">₹149</span>
+              <div class="menu-item__info"><span class="menu-item__name">Keema Dosa</span></div><span
+                class="menu-item__price">₹129</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:350px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Dosa &amp; Parotta</span>
+            <div class="img-placeholder" style="height:100%; min-height:220px; border-radius:0; overflow:hidden;">
+              <img src="images/m11.jpg" alt="Dosa" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Parotta -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Parotta</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Bun Parotta</span></div><span
+                class="menu-item__price">₹39</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Coin Parotta</span></div><span
+                class="menu-item__price">₹39</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Plain / Nool Parotta</span></div><span
+                class="menu-item__price">₹39</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Keema Parotta</span></div><span
+                class="menu-item__price">₹149</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Zingara Special Egg Parotta</span></div><span
+                class="menu-item__price">₹109</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Kothu Parotta (Veg)</span></div><span
+                class="menu-item__price">₹109</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Kothu Parotta (Egg)</span></div><span
+                class="menu-item__price">₹129</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Kothu Parotta (Chicken)</span></div><span
+                class="menu-item__price">₹149</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:350px; border-radius:0; overflow:hidden;">
+              <img src="images/m12.jpg" alt="Parotta" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -382,54 +493,77 @@
 
       <!-- TAB: BREADS & RICE (Split) -->
       <div class="tab-panel" id="tab-breads">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Breads &amp; Rice</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Breads
+            &amp; Rice</span></div>
+
+        <!-- Breads -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
             <div class="menu-subsection"><span class="menu-category__title">Breads</span></div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Naan Plain</span></div><span class="menu-item__price">₹39</span>
+              <div class="menu-item__info"><span class="menu-item__name">Naan Plain</span></div><span
+                class="menu-item__price">₹39</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Naan Butter</span></div><span class="menu-item__price">₹49</span>
+              <div class="menu-item__info"><span class="menu-item__name">Naan Butter</span></div><span
+                class="menu-item__price">₹49</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Roti Plain</span></div><span class="menu-item__price">₹39</span>
+              <div class="menu-item__info"><span class="menu-item__name">Roti Plain</span></div><span
+                class="menu-item__price">₹39</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Roti Butter</span></div><span class="menu-item__price">₹49</span>
+              <div class="menu-item__info"><span class="menu-item__name">Roti Butter</span></div><span
+                class="menu-item__price">₹49</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kulcha</span></div><span class="menu-item__price">₹49</span>
+              <div class="menu-item__info"><span class="menu-item__name">Kulcha</span></div><span
+                class="menu-item__price">₹49</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Lachha Paratha</span></div><span class="menu-item__price">₹59</span>
+              <div class="menu-item__info"><span class="menu-item__name">Lachha Paratha</span></div><span
+                class="menu-item__price">₹59</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Rumali Roti</span></div><span class="menu-item__price">₹39</span>
+              <div class="menu-item__info"><span class="menu-item__name">Rumali Roti</span></div><span
+                class="menu-item__price">₹39</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Bread Basket Plain</span></div><span class="menu-item__price">₹170</span>
+              <div class="menu-item__info"><span class="menu-item__name">Bread Basket Plain</span></div><span
+                class="menu-item__price">₹170</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Bread Basket Butter</span></div><span class="menu-item__price">₹190</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Rice</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Steam Rice</span></div><span class="menu-item__price">₹79</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Jeera Rice</span></div><span class="menu-item__price">₹149</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Ghee Rice</span></div><span class="menu-item__price">₹159</span>
+              <div class="menu-item__info"><span class="menu-item__name">Bread Basket Butter</span></div><span
+                class="menu-item__price">₹190</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:350px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Breads &amp; Rice</span>
+            <div class="img-placeholder" style="height:100%; min-height:400px; border-radius:0; overflow:hidden;">
+              <img src="images/m13.jpg" alt="Indian Breads" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Rice -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Rice</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Steam Rice</span></div><span
+                class="menu-item__price">₹79</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Jeera Rice</span></div><span
+                class="menu-item__price">₹149</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Ghee Rice</span></div><span
+                class="menu-item__price">₹159</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:220px; border-radius:0; overflow:hidden;">
+              <img src="images/m14.jpg" alt="Rice Varieties" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -437,20 +571,22 @@
 
       <!-- TAB: SEAFOOD (Split) -->
       <div class="tab-panel" id="tab-seafood">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Seafood</span></div>
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Seafood</span></div>
         <div class="menu-split reveal">
           <div class="menu-split__items">
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Fish Ajwaini Tikka</span></div><span class="menu-item__price">₹249</span>
+              <div class="menu-item__info"><span class="menu-item__name">Fish Ajwaini Tikka</span></div><span
+                class="menu-item__price">₹249</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Tandoori Prawns</span></div><span class="menu-item__price">₹249</span>
+              <div class="menu-item__info"><span class="menu-item__name">Tandoori Prawns</span></div><span
+                class="menu-item__price">₹249</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:220px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Seafood</span>
+            <div class="img-placeholder" style="height:100%; min-height:220px; border-radius:0; overflow:hidden;">
+              <img src="images/m15.jpg" alt="Seafood" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -458,7 +594,8 @@
 
       <!-- TAB: SIGNATURE BIRYANI (Split) -->
       <div class="tab-panel" id="tab-biryani">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Signature Biryani</span></div>
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Signature Biryani</span></div>
         <div class="menu-split reveal">
           <div class="menu-split__items">
             <div class="menu-item">
@@ -505,9 +642,8 @@
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:380px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Signature Biryani</span>
+            <div class="img-placeholder" style="height:100%; min-height:380px; border-radius:0; overflow:hidden;">
+              <img src="images/m16.jpg" alt="Signature Biryani" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -515,29 +651,34 @@
 
       <!-- TAB: BIRYANI COMBOS (Split) -->
       <div class="tab-panel" id="tab-combos">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Biryani Combos</span></div>
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Biryani
+            Combos</span></div>
         <div class="menu-split reveal">
           <div class="menu-split__items">
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Combo 1 (Chicken Biryani Meal)</span></div><span class="menu-item__price">₹299</span>
+              <div class="menu-item__info"><span class="menu-item__name">Combo 1 (Chicken Biryani Meal)</span></div>
+              <span class="menu-item__price">₹299</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Combo 2 (Mutton Biryani Meal)</span></div><span class="menu-item__price">₹359</span>
+              <div class="menu-item__info"><span class="menu-item__name">Combo 2 (Mutton Biryani Meal)</span></div><span
+                class="menu-item__price">₹359</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Combo 3 (Veg Biryani Meal)</span></div><span class="menu-item__price">₹219</span>
+              <div class="menu-item__info"><span class="menu-item__name">Combo 3 (Veg Biryani Meal)</span></div><span
+                class="menu-item__price">₹219</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Combo 4 (Dosa + Chicken Keema)</span></div><span class="menu-item__price">₹149</span>
+              <div class="menu-item__info"><span class="menu-item__name">Combo 4 (Dosa + Chicken Keema)</span></div>
+              <span class="menu-item__price">₹149</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Combo 5 (Parotta + Chicken Keema)</span></div><span class="menu-item__price">₹149</span>
+              <div class="menu-item__info"><span class="menu-item__name">Combo 5 (Parotta + Chicken Keema)</span></div>
+              <span class="menu-item__price">₹149</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:280px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Combos</span>
+            <div class="img-placeholder" style="height:100%; min-height:280px; border-radius:0; overflow:hidden;">
+              <img src="images/m17.jpg" alt="Biryani Combos" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -545,66 +686,94 @@
 
       <!-- TAB: INDIAN MAINS (Split) -->
       <div class="tab-panel" id="tab-mains">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Indian Mains</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Indian
+            Mains</span></div>
+
+        <!-- Veg Gravies -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
             <div class="menu-subsection"><span class="menu-category__title">Veg Gravies</span></div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Nizami Handi</span></div><span class="menu-item__price">₹229</span>
+              <div class="menu-item__info"><span class="menu-item__name">Nizami Handi</span></div><span
+                class="menu-item__price">₹229</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Paneer Butter Masala</span></div><span class="menu-item__price">₹249</span>
+              <div class="menu-item__info"><span class="menu-item__name">Paneer Butter Masala</span></div><span
+                class="menu-item__price">₹249</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mushroom Masala</span></div><span class="menu-item__price">₹229</span>
+              <div class="menu-item__info"><span class="menu-item__name">Mushroom Masala</span></div><span
+                class="menu-item__price">₹229</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kadai Paneer</span></div><span class="menu-item__price">₹249</span>
+              <div class="menu-item__info"><span class="menu-item__name">Kadai Paneer</span></div><span
+                class="menu-item__price">₹249</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Veg Keema</span></div><span class="menu-item__price">₹229</span>
+              <div class="menu-item__info"><span class="menu-item__name">Veg Keema</span></div><span
+                class="menu-item__price">₹229</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Plain Palak</span></div><span class="menu-item__price">₹199</span>
+              <div class="menu-item__info"><span class="menu-item__name">Plain Palak</span></div><span
+                class="menu-item__price">₹199</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Palak Paneer</span></div><span class="menu-item__price">₹249</span>
+              <div class="menu-item__info"><span class="menu-item__name">Palak Paneer</span></div><span
+                class="menu-item__price">₹249</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Dal Tadka</span></div><span class="menu-item__price">₹179</span>
+              <div class="menu-item__info"><span class="menu-item__name">Dal Tadka</span></div><span
+                class="menu-item__price">₹179</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mixed Veg Curry</span></div><span class="menu-item__price">₹229</span>
+              <div class="menu-item__info"><span class="menu-item__name">Mixed Veg Curry</span></div><span
+                class="menu-item__price">₹229</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Dal / Palak Khichdi</span></div><span class="menu-item__price">₹199</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Non-Veg Gravies</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Butter Chicken</span></div><span class="menu-item__price">₹249</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Zingara Chicken Masala</span></div><span class="menu-item__price">₹229</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mutton Korma</span></div><span class="menu-item__price">₹349</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chicken Tikka Masala</span></div><span class="menu-item__price">₹249</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Laal Maas (Chef Special)</span></div><span class="menu-item__price">₹369</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Kadai Chicken</span></div><span class="menu-item__price">₹249</span>
+              <div class="menu-item__info"><span class="menu-item__name">Dal / Palak Khichdi</span></div><span
+                class="menu-item__price">₹199</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:450px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Indian Mains</span>
+            <div class="img-placeholder" style="height:100%; min-height:450px; border-radius:0; overflow:hidden;">
+              <img src="images/m18.jpg" alt="Indian Veg Gravies" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Non-Veg Gravies -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Non-Veg Gravies</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Butter Chicken</span></div><span
+                class="menu-item__price">₹249</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Zingara Chicken Masala</span></div><span
+                class="menu-item__price">₹229</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Mutton Korma</span></div><span
+                class="menu-item__price">₹349</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chicken Tikka Masala</span></div><span
+                class="menu-item__price">₹249</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Laal Maas (Chef Special)</span></div><span
+                class="menu-item__price">₹369</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Kadai Chicken</span></div><span
+                class="menu-item__price">₹249</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:400px; border-radius:0; overflow:hidden;">
+              <img src="images/m19.jpg" alt="Indian Non-Veg Gravies"
+                style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -612,11 +781,13 @@
 
       <!-- TAB: BEVERAGES (Split) -->
       <div class="tab-panel" id="tab-beverages">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Beverages</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Beverages</span></div>
+
+        <!-- Milkshakes & Refreshers (Combined) -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
-            <div class="menu-subsection"><span class="menu-category__title">Milkshakes &amp; Juices</span></div>
+            <div class="menu-subsection"><span class="menu-category__title">Milkshakes &amp; Refreshers</span></div>
             <div class="menu-item">
               <div class="menu-item__info">
                 <span class="menu-item__name">Milkshakes</span>
@@ -631,54 +802,76 @@
               </div>
               <span class="menu-item__price">₹69</span>
             </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Refreshers</span></div>
+            <!-- Refreshers -->
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Fresh Lime Soda</span></div><span class="menu-item__price">₹69</span>
+              <div class="menu-item__info"><span class="menu-item__name">Fresh Lime Soda</span></div><span
+                class="menu-item__price">₹69</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Fresh Lime Water</span></div><span class="menu-item__price">₹59</span>
+              <div class="menu-item__info"><span class="menu-item__name">Fresh Lime Water</span></div><span
+                class="menu-item__price">₹59</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mint Lime</span></div><span class="menu-item__price">₹69</span>
+              <div class="menu-item__info"><span class="menu-item__name">Mint Lime</span></div><span
+                class="menu-item__price">₹69</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Nannari Soda</span></div><span class="menu-item__price">₹69</span>
+              <div class="menu-item__info"><span class="menu-item__name">Nannari Soda</span></div><span
+                class="menu-item__price">₹69</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Ginger Lime</span></div><span class="menu-item__price">₹69</span>
+              <div class="menu-item__info"><span class="menu-item__name">Ginger Lime</span></div><span
+                class="menu-item__price">₹69</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Rose Lime</span></div><span class="menu-item__price">₹69</span>
+              <div class="menu-item__info"><span class="menu-item__name">Rose Lime</span></div><span
+                class="menu-item__price">₹69</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Blue Lime</span></div><span class="menu-item__price">₹69</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Lassi &amp; Others</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Sweet Lassi</span></div><span class="menu-item__price">₹59</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mango Lassi</span></div><span class="menu-item__price">₹79</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Strawberry Lassi</span></div><span class="menu-item__price">₹79</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Pineapple Lassi</span></div><span class="menu-item__price">₹79</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Dry Fruit Lassi</span></div><span class="menu-item__price">₹119</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Buttermilk</span></div><span class="menu-item__price">₹49</span>
+              <div class="menu-item__info"><span class="menu-item__name">Blue Lime</span></div><span
+                class="menu-item__price">₹69</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:450px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Beverages</span>
+            <div class="img-placeholder" style="height:100%; min-height:480px; border-radius:0; overflow:hidden;">
+              <img src="images/m20.jpg" alt="Milkshakes & Refreshers"
+                style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Lassi & Others -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Lassi &amp; Others</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Sweet Lassi</span></div><span
+                class="menu-item__price">₹59</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Mango Lassi</span></div><span
+                class="menu-item__price">₹79</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Strawberry Lassi</span></div><span
+                class="menu-item__price">₹79</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Pineapple Lassi</span></div><span
+                class="menu-item__price">₹79</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Dry Fruit Lassi</span></div><span
+                class="menu-item__price">₹119</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Buttermilk</span></div><span
+                class="menu-item__price">₹49</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:350px; border-radius:0; overflow:hidden;">
+              <img src="images/m21.jpg" alt="Lassi & Others" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -686,42 +879,61 @@
 
       <!-- TAB: SAVORIES (Split) -->
       <div class="tab-panel" id="tab-savories">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Savories</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Savories</span></div>
+
+        <!-- Sandwiches -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
             <div class="menu-subsection"><span class="menu-category__title">Sandwiches</span></div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Veg Sandwich</span></div><span class="menu-item__price">₹99</span>
+              <div class="menu-item__info"><span class="menu-item__name">Veg Sandwich</span></div><span
+                class="menu-item__price">₹99</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Veg Cheese Sandwich</span></div><span class="menu-item__price">₹99</span>
+              <div class="menu-item__info"><span class="menu-item__name">Veg Cheese Sandwich</span></div><span
+                class="menu-item__price">₹99</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Cheese Sandwich</span></div><span class="menu-item__price">₹109</span>
+              <div class="menu-item__info"><span class="menu-item__name">Cheese Sandwich</span></div><span
+                class="menu-item__price">₹109</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Spiced Sandwich</span></div><span class="menu-item__price">₹109</span>
+              <div class="menu-item__info"><span class="menu-item__name">Spiced Sandwich</span></div><span
+                class="menu-item__price">₹109</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Paneer Cheese Sandwich</span></div><span class="menu-item__price">₹109</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Fried</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">French Fries</span></div><span class="menu-item__price">₹99</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Peri Peri Fries</span></div><span class="menu-item__price">₹119</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Cheese Balls</span></div><span class="menu-item__price">₹129</span>
+              <div class="menu-item__info"><span class="menu-item__name">Paneer Cheese Sandwich</span></div><span
+                class="menu-item__price">₹109</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:350px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Savories</span>
+            <div class="img-placeholder" style="height:100%; min-height:280px; border-radius:0; overflow:hidden;">
+              <img src="images/m22.jpg" alt="Sandwiches" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Fried -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Fried</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">French Fries</span></div><span
+                class="menu-item__price">₹99</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Peri Peri Fries</span></div><span
+                class="menu-item__price">₹119</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Cheese Balls</span></div><span
+                class="menu-item__price">₹129</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:220px; border-radius:0; overflow:hidden;">
+              <img src="images/m23.jpg" alt="Fried Savories" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -729,53 +941,85 @@
 
       <!-- TAB: DESSERTS (Split) -->
       <div class="tab-panel" id="tab-desserts">
-        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span class="menu-category__title">Desserts</span></div>
-        
-        <div class="menu-split reveal">
+        <div class="menu-category__header" style="margin-bottom:var(--sp-8);"><span
+            class="menu-category__title">Desserts</span></div>
+
+        <!-- Classics -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
           <div class="menu-split__items">
             <div class="menu-subsection"><span class="menu-category__title">Classics</span></div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Gulab Jamun</span></div><span class="menu-item__price">₹89</span>
+              <div class="menu-item__info"><span class="menu-item__name">Gulab Jamun</span></div><span
+                class="menu-item__price">₹89</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Shahi Tukda</span></div><span class="menu-item__price">₹109</span>
+              <div class="menu-item__info"><span class="menu-item__name">Shahi Tukda</span></div><span
+                class="menu-item__price">₹109</span>
             </div>
             <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Gulab Jamun with Ice Cream</span></div><span class="menu-item__price">₹169</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Sundaes</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">3 in 1 Ice Cream</span></div><span class="menu-item__price">₹99</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">GulKand Ice Cream</span></div><span class="menu-item__price">₹99</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Crunchy Ice Cream</span></div><span class="menu-item__price">₹109</span>
-            </div>
-
-            <div class="menu-subsection"><span class="menu-category__title">Scoops</span></div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Vanilla</span></div><span class="menu-item__price">₹79</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Chocolate</span></div><span class="menu-item__price">₹89</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Strawberry</span></div><span class="menu-item__price">₹89</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Butterscotch</span></div><span class="menu-item__price">₹99</span>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item__info"><span class="menu-item__name">Mango</span></div><span class="menu-item__price">₹119</span>
+              <div class="menu-item__info"><span class="menu-item__name">Gulab Jamun with Ice Cream</span></div><span
+                class="menu-item__price">₹169</span>
             </div>
           </div>
           <div class="menu-split__photo">
-            <div class="img-placeholder" style="height:100%; min-height:400px; border-radius:0;">
-              <div class="img-placeholder__icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg></div>
-              <span class="img-placeholder__label">Desserts</span>
+            <div class="img-placeholder" style="height:100%; min-height:220px; border-radius:0; overflow:hidden;">
+              <img src="images/m24.jpg" alt="Classic Desserts" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Sundaes -->
+        <div class="menu-split reveal" style="margin-bottom: var(--sp-2);">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Sundaes</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">3 in 1 Ice Cream</span></div><span
+                class="menu-item__price">₹99</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">GulKand Ice Cream</span></div><span
+                class="menu-item__price">₹99</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Crunchy Ice Cream</span></div><span
+                class="menu-item__price">₹109</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:220px; border-radius:0; overflow:hidden;">
+              <img src="images/m25.jpg" alt="Ice Cream Sundaes" style="width:100%; height:100%; object-fit:cover;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Scoops -->
+        <div class="menu-split reveal">
+          <div class="menu-split__items">
+            <div class="menu-subsection"><span class="menu-category__title">Scoops</span></div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Vanilla</span></div><span
+                class="menu-item__price">₹79</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Chocolate</span></div><span
+                class="menu-item__price">₹89</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Strawberry</span></div><span
+                class="menu-item__price">₹89</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Butterscotch</span></div><span
+                class="menu-item__price">₹99</span>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item__info"><span class="menu-item__name">Mango</span></div><span
+                class="menu-item__price">₹119</span>
+            </div>
+          </div>
+          <div class="menu-split__photo">
+            <div class="img-placeholder" style="height:100%; min-height:280px; border-radius:0; overflow:hidden;">
+              <img src="images/m26.jpg" alt="Ice Cream Scoops" style="width:100%; height:100%; object-fit:cover;" />
             </div>
           </div>
         </div>
@@ -803,7 +1047,8 @@
         Call us <a href="tel:+919187103005" style="color:var(--color-gold);">9187103005</a>
       </p>
       <!-- Map placeholder -->
-      <div class="map-ph" style="max-width:600px; margin-inline:auto; min-height:180px; margin-top:var(--sp-8); overflow:hidden;">
+      <div class="map-ph"
+        style="max-width:600px; margin-inline:auto; min-height:180px; margin-top:var(--sp-8); overflow:hidden;">
         <img src="images/m2.jpg" alt="Location Map - Horamavu" style="width:100%; height:100%; object-fit:cover;" />
       </div>
     </div>

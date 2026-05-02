@@ -17,7 +17,7 @@
   }
 
   /* ---------- NAV: mobile hamburger ---------- */
-  const hamburger  = document.getElementById('hamburger');
+  const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobileMenu');
   if (hamburger && mobileMenu) {
     hamburger.addEventListener('click', () => {
@@ -44,6 +44,7 @@
   /* ---------- MENU PAGE TABS ---------- */
   const menuTabs = document.getElementById('menuTabs');
   if (menuTabs) {
+    // Tab switching logic
     menuTabs.addEventListener('click', (e) => {
       const btn = e.target.closest('.tab-btn');
       if (!btn) return;
@@ -58,6 +59,14 @@
         panel.classList.toggle('active', panel.id === `tab-${target}`);
       });
     });
+
+    // Desktop horizontal scroll with mouse wheel
+    menuTabs.addEventListener('wheel', (e) => {
+      if (e.deltaY !== 0) {
+        e.preventDefault();
+        menuTabs.scrollLeft += e.deltaY;
+      }
+    }, { passive: false });
   }
 
   /* ---------- GALLERY FILTER ---------- */
@@ -91,10 +100,10 @@
   if (reserveForm) {
     reserveForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      const name   = document.getElementById('name')?.value || '';
-      const date   = document.getElementById('date')?.value || '';
+      const name = document.getElementById('name')?.value || '';
+      const date = document.getElementById('date')?.value || '';
       const guests = document.getElementById('guests')?.value || '';
-      const phone  = document.getElementById('phone')?.value || '';
+      const phone = document.getElementById('phone')?.value || '';
 
       // Build WhatsApp message and open
       const msg = `Hi Zingara! I'd like to reserve a table.\nName: ${name}\nDate: ${date}\nGuests: ${guests}\nPhone: ${phone}`;

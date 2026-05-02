@@ -52,6 +52,30 @@ All placeholder images in the code follow a strict naming convention based on th
 | :--- | :--- | :--- |
 | `m1.jpg` | Hero | Clean, minimal food-themed background for the Menu header. |
 | `m2.jpg` | Map | Styled map visual for the footer contact section. |
+| `m3.jpg` | Soups | Featured image for all Soup items. |
+| `m4.jpg` | Starters | South Indian sub-category. |
+| `m5.jpg` | Starters | Tandoor sub-category. |
+| `m6.jpg` | Starters | Seekh Kebab & Rolls sub-category. |
+| `m7.jpg` | Chinese | Non-Veg Starters sub-category. |
+| `m8.jpg` | Chinese | Veg Starters sub-category. |
+| `m9.jpg` | Chinese | Chinese Mains (Rice/Noodles) sub-category. |
+| `m10.jpg` | Eggs | Featured image for all Egg items. |
+| `m11.jpg` | Dosa & Parotta | Dosa sub-category. |
+| `m12.jpg` | Dosa & Parotta | Parotta sub-category. |
+| `m13.jpg` | Breads & Rice | Breads sub-category. |
+| `m14.jpg` | Breads & Rice | Rice sub-category. |
+| `m15.jpg` | Seafood | Featured image for all Seafood items. |
+| `m16.jpg` | Signature Biryani | Featured image for the Biryani section. |
+| `m17.jpg` | Biryani Combos | Featured image for the Combos section. |
+| `m18.jpg` | Indian Mains | Veg Gravies sub-category. |
+| `m19.jpg` | Indian Mains | Non-Veg Gravies sub-category. |
+| `m20.jpg` | Beverages | Milkshakes & Refreshers sub-category. |
+| `m21.jpg` | Beverages | Lassi & Others sub-category. |
+| `m22.jpg` | Savories | Sandwiches sub-category. |
+| `m23.jpg` | Savories | Fried (Fries/etc) sub-category. |
+| `m24.jpg` | Desserts | Classics sub-category. |
+| `m25.jpg` | Desserts | Sundaes sub-category. |
+| `m26.jpg` | Desserts | Scoops sub-category. |
 
 ## 5. Order & Reserve (`order.html`) — "o" series
 | Filename | Section | Description |
