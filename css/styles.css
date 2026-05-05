@@ -425,11 +425,24 @@ p:last-child {
   height: 8rem;
   width: auto;
   object-fit: contain;
-  margin-left: -2.5rem;
+  margin-left: -2.2rem; /* Slightly reduced overlap for cleaner 'g' intersection */
+  transition: all var(--transition);
 }
 
 .hero__zingara-text-img {
   height: 1em;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer__branding {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.footer__logo-icon {
+  height: 5.5rem;
   width: auto;
   object-fit: contain;
 }
@@ -440,6 +453,7 @@ p:last-child {
   object-fit: contain;
   margin-bottom: 0;
   margin-left: -2.5rem;
+  transition: all var(--transition);
 }
 
 .nav__logo-text span {
@@ -1564,12 +1578,36 @@ p:last-child {
   }
 
   .icon-strip {
-    gap: var(--sp-8);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--sp-10) var(--sp-4);
+    justify-items: center;
+    padding-block: var(--sp-12);
+  }
+
+  .icon-feature:last-child {
+    grid-column: span 2;
   }
 
   .footer__grid {
     grid-template-columns: 1fr;
     gap: var(--sp-8);
+  }
+
+  .footer__branding {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__zingara-text-img {
+    margin-left: 0;
+    margin-top: -2.8rem; /* Pulling name closer to logo in the stacked layout */
+    height: 7rem;
+  }
+
+  .footer__logo-icon {
+    height: 5rem;
   }
 
   .footer__bottom {
@@ -1627,6 +1665,20 @@ p:last-child {
 
   h2 {
     font-size: var(--fs-2xl);
+  }
+
+  /* Header Logo positioning refinements */
+  .nav__inner {
+    padding-inline: var(--sp-4);
+  }
+
+  .nav__logo-icon {
+    height: 4.8rem;
+  }
+
+  .nav__zingara-text-img {
+    height: 7rem;
+    margin-left: -2.4rem; /* Reduced gap / increased overlap for tighter header look */
   }
 }
 
