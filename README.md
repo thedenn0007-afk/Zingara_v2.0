@@ -28,7 +28,8 @@ All placeholder images in the code follow a strict naming convention based on th
 | `a1.webp` | Hero | Atmospheric background for "Before Zingara, there was a kitchen...". |
 | `a2.webp` | Split Section | "Kitchen · Mysore" — Authentic kitchen or heritage visual. |
 | `a3.webp` | Cinematic Quote | Dark, atmospheric background for the "No Shortcuts" quote section. |
-| `a4.webp` | Split Section | "The Handi · Bangalore" — Visual of the cooking process or Handi. |
+| `a4.webp` | Split Section | "Dum Cooking · Bangalore" — Visual of the cooking process. |
+| `founder.jpg` | Founder Section | Portrait of Mr. K. Mohan. |
 
 ## 3. Gallery (`gallery.html`) — "g" series
 | Filename | Category | Description |
