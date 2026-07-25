@@ -136,6 +136,36 @@
     reveals.forEach(el => el.classList.add('visible'));
   }
 
+  /* ---------- BREAKFAST FLOATING BADGE ---------- */
+  const breakfastBadge = document.getElementById('breakfastBadge');
+  const breakfastTrigger = document.getElementById('breakfastBadgeTrigger');
+  const breakfastClose = document.getElementById('breakfastBadgeClose');
+  const breakfastLightbox = document.getElementById('breakfastLightbox');
+  const breakfastLightboxClose = document.getElementById('breakfastLightboxClose');
+
+  if (breakfastBadge && breakfastTrigger && breakfastClose && breakfastLightbox) {
+    const collapseBadge = () => breakfastBadge.classList.add('is-collapsed');
+
+    breakfastClose.addEventListener('click', (e) => {
+      e.stopPropagation();
+      collapseBadge();
+    });
+
+    const openLightbox = () => {
+      breakfastLightbox.classList.add('open');
+    };
+    const closeLightbox = () => breakfastLightbox.classList.remove('open');
+
+    breakfastTrigger.addEventListener('click', openLightbox);
+    breakfastLightboxClose?.addEventListener('click', closeLightbox);
+    breakfastLightbox.addEventListener('click', (e) => {
+      if (e.target === breakfastLightbox) closeLightbox();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  }
+
   /* ---------- SET ACTIVE NAV LINK ---------- */
   const currentPage = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav__links a').forEach(link => {

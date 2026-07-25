@@ -1856,3 +1856,188 @@ p:last-child {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ---------- BREAKFAST FLOATING BADGE ---------- */
+.breakfast-badge {
+  position: fixed;
+  right: var(--sp-6);
+  bottom: var(--sp-6);
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  background: rgba(21, 19, 16, 0.92);
+  border: 1px solid rgba(201, 147, 58, 0.35);
+  border-radius: var(--radius-pill);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: var(--sp-2);
+  padding-right: var(--sp-6);
+  gap: var(--sp-3);
+  transition: padding var(--transition-slow), gap var(--transition-slow), transform var(--transition), border-color var(--transition);
+  animation: breakfast-badge-in 0.5s ease-out 1s both;
+}
+
+.breakfast-badge:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 147, 58, 0.6);
+}
+
+.breakfast-badge.is-collapsed {
+  padding-right: var(--sp-2);
+  gap: 0;
+}
+
+.breakfast-badge.is-collapsed .breakfast-badge__text {
+  opacity: 0;
+  width: 0;
+  margin: 0;
+  pointer-events: none;
+}
+
+.breakfast-badge.is-collapsed .breakfast-badge__close {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.breakfast-badge__trigger {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-cream);
+  padding: 0;
+}
+
+.breakfast-badge__icon {
+  flex-shrink: 0;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: rgba(201, 147, 58, 0.14);
+  color: var(--color-gold-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breakfast-badge__text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: opacity var(--transition), width var(--transition-slow);
+}
+
+.breakfast-badge__eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--fs-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold-light);
+}
+
+.breakfast-badge__title {
+  font-family: var(--font-serif);
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  color: var(--color-cream);
+}
+
+.breakfast-badge__close {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--color-charcoal-dark);
+  border: 1px solid rgba(201, 147, 58, 0.4);
+  color: var(--color-cream-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.breakfast-badge__close:hover {
+  color: var(--color-cream);
+  border-color: var(--color-gold);
+}
+
+@keyframes breakfast-badge-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .breakfast-badge {
+    right: var(--sp-4);
+    bottom: var(--sp-4);
+  }
+
+  .breakfast-badge__title {
+    font-size: var(--fs-base);
+  }
+}
+
+/* ---------- BREAKFAST MENU LIGHTBOX ---------- */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(10, 9, 8, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sp-8);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--transition);
+}
+
+.lightbox.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox__img {
+  max-width: min(90vw, 480px);
+  max-height: 90vh;
+  border-radius: var(--radius-md);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.lightbox__close {
+  position: absolute;
+  top: var(--sp-6);
+  right: var(--sp-6);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(28, 26, 24, 0.85);
+  border: 1px solid rgba(201, 147, 58, 0.3);
+  color: var(--color-cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color var(--transition);
+}
+
+.lightbox__close:hover {
+  border-color: var(--color-gold);
+}

@@ -324,6 +324,42 @@
     </div>
   </footer>
 
+  <!-- ============================================================ BREAKFAST FLOATING BADGE -->
+  <div class="breakfast-badge" id="breakfastBadge">
+    <button class="breakfast-badge__close" id="breakfastBadgeClose" aria-label="Dismiss">
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+      </svg>
+    </button>
+    <button class="breakfast-badge__trigger" id="breakfastBadgeTrigger" aria-label="View Sunday Special Breakfast menu">
+      <span class="breakfast-badge__icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+          <path d="M12 3.5v2.3" />
+          <path d="M6.7 6.2l1.5 1.5" />
+          <path d="M17.3 6.2l-1.5 1.5" />
+          <path d="M5 16a7 7 0 0114 0" />
+          <path d="M3 16h18" />
+        </svg>
+      </span>
+      <span class="breakfast-badge__text">
+        <span class="breakfast-badge__eyebrow">Sunday Special</span>
+        <span class="breakfast-badge__title">Breakfast</span>
+      </span>
+    </button>
+  </div>
+
+  <!-- BREAKFAST MENU LIGHTBOX -->
+  <div class="lightbox" id="breakfastLightbox">
+    <button class="lightbox__close" id="breakfastLightboxClose" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18" />
+        <line x1="6" y1="6" x2="18" y2="18" />
+      </svg>
+    </button>
+    <img src="images/sunday-breakfast-menu.png" alt="Zingara Sunday Special Breakfast Menu" class="lightbox__img" />
+  </div>
+
   <script src="js/main.js"></script>
 </body>
 
